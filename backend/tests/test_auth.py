@@ -15,6 +15,7 @@ def test_register_user():
     )
 
     assert response.status_code == 201
+
     assert response.json() == {
         "message": "User registered successfully"
     }
