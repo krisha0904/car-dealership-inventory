@@ -1,0 +1,45 @@
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+
+# Test Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# ==========================
+# React / Node
+# ==========================
+
+node_modules/
+dist/
+
+# ==========================
+# IDE
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# Operating System
+# ==========================
+
+.DS_Store
+Thumbs.db
