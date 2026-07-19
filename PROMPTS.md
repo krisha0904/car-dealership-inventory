@@ -1,9 +1,24 @@
-# AI Prompts Used
+# PROMPTS.md
 
-This document records all prompts used during the development of this project.
+## Prompt 1
+Help me design the folder structure for a FastAPI project using TDD.
 
 ---
 
-## Prompt 1
+## Prompt 2
+Guide me through implementing user registration using FastAPI and SQLAlchemy following the Red-Green-Refactor workflow.
 
-Help me build a Car Dealership Inventory System using FastAPI, React, SQLite, JWT Authentication, and Test-Driven Development. Explain every step in detail and prepare me for interview questions.
+---
+
+## Prompt 3
+Help me implement JWT authentication for FastAPI.
+
+---
+
+## Prompt 4
+Help me create React pages for Login, Register, Dashboard and Admin using Tailwind CSS.
+
+---
+
+## Prompt 5
+Help me connect the React frontend with the FastAPI backend using Axios.
