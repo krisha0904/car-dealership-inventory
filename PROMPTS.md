@@ -1,24 +1,120 @@
-# PROMPTS.md
+# AI Prompt History
 
-## Prompt 1
-Help me design the folder structure for a FastAPI project using TDD.
+## AI Tool Used
+
+ChatGPT
+
+
+# Development Prompts
+
+
+## Backend Setup
+
+Prompt:
+
+"Help me create a FastAPI backend for a car dealership inventory system with SQLite database and JWT authentication."
+
+
+Purpose:
+
+Used to understand project architecture and create backend structure.
+
 
 ---
 
-## Prompt 2
-Guide me through implementing user registration using FastAPI and SQLAlchemy following the Red-Green-Refactor workflow.
+## Database Design
+
+Prompt:
+
+"Create SQLAlchemy models and database structure for users and vehicles."
+
+
+Purpose:
+
+Used for designing database tables.
+
 
 ---
 
-## Prompt 3
-Help me implement JWT authentication for FastAPI.
+## Authentication
+
+Prompt:
+
+"Implement JWT authentication in FastAPI with login and protected routes."
+
+
+Purpose:
+
+Used to understand secure API authentication.
+
 
 ---
 
-## Prompt 4
-Help me create React pages for Login, Register, Dashboard and Admin using Tailwind CSS.
+## Testing
+
+Prompt:
+
+"Create pytest test cases following TDD approach for FastAPI registration and vehicle APIs."
+
+
+Purpose:
+
+Used to create backend tests.
+
 
 ---
 
-## Prompt 5
-Help me connect the React frontend with the FastAPI backend using Axios.
+## Debugging
+
+Prompt:
+
+"Explain this pytest failure and help fix the API issue."
+
+
+Purpose:
+
+Used during debugging failed test cases.
+
+
+---
+
+## Frontend
+
+Prompt:
+
+"Create React dashboard UI using Tailwind CSS for vehicle inventory management."
+
+
+Purpose:
+
+Used for improving frontend interface.
+
+
+---
+
+## Documentation
+
+Prompt:
+
+"Generate README documentation for a full-stack FastAPI React project."
+
+
+Purpose:
+
+Used to structure project documentation.
+
+
+---
+
+# AI Usage Reflection
+
+AI tools helped accelerate development by assisting with:
+
+- Understanding concepts
+- Debugging errors
+- Writing initial code structures
+- Improving UI
+- Creating documentation
+
+
+All AI generated suggestions were reviewed and tested before implementation.

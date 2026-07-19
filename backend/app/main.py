@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI, status, Depends, HTTPException
 from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,7 +24,7 @@ from app.repository.vehicle_repository import (
     update_vehicle,
     delete_vehicle,
 )
-
+from app.core.admin import get_current_admin
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
@@ -83,7 +84,8 @@ def login_user(
 
     return {
         "access_token": token,
-        "token_type": "bearer"
+        "token_type": "bearer",
+        "is_admin": db_user.is_admin
     }
 
 @app.post("/api/vehicles", status_code=201)

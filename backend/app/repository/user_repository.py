@@ -19,6 +19,7 @@ def create_user(db: Session, user: UserCreate):
         name=user.name,
         email=user.email,
         password=user.password,
+        is_admin=False
     )
 
     db.add(db_user)
