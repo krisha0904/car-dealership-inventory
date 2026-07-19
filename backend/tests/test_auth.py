@@ -16,6 +16,10 @@ def test_register_user():
 
     assert response.status_code == 201
 
-    assert response.json() == {
-        "message": "User registered successfully"
-    }
+    data = response.json()
+
+    assert data["name"] == "Krisha Patel"
+    assert data["email"] == "krisha@gmail.com"
+
+    # Password should never be returned
+    assert "password" not in data
